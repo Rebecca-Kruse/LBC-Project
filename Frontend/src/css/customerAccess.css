@@ -1,0 +1,93 @@
+:root {
+    /* css variables: https://developer.mozilla.org/en-US/docs/Web/CSS/var */
+    --primary-color: #125555;
+    --secondary-color: #fff;
+    --error-color: rgba(194, 0, 0, 0.71);
+    --third-color: #66CDAA;
+}
+#screenBackground{
+
+background-image: url("Groceries.jpg");
+
+background-color: black;
+
+}
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+
+}
+.container{
+    display: flex;
+    margin: 25px;
+}
+.site-title{
+margin-top: 30px;
+margin-left: 30px;}
+
+.header {
+    /* Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    display: flex;
+    background-color: black;
+    align-items: left;
+    color: #F7F9F9;
+
+    height: 75px;
+}
+.header_home {
+    font-size: 65px;
+    line-height: 25px;
+    height: 50px;
+    text-decoration: none;
+    color: #F7F9F9;
+    font-family:"Brush Script MT", cursive;
+}
+
+.card {
+    margin-top: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    width: 78%;
+}
+
+.font{
+font-size: 20px;
+font-family: "Bradley Hand", cursive
+}
+
+.button, button{
+    background: #ffffff;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+.validated-field:invalid {
+    outline: 2px solid var(--error-color);
+}
+
+#result{
+background-color: rgba(255, 255, 255,.9);
+}
+
+#notOpaque{
+color: black;
+ }
+ #result-info{
+ display: flex;
+ text-align: left;
+justify-content: space-around;
+ justify-content: space-between;}
+
+
+
+
